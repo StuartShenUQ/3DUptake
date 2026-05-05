@@ -4,7 +4,7 @@
 
 **3D Uptake is a workflow combining living imaging and a fully automated analysis that leverage the high-speeding live imaging capability of spinning-disc microscopy and AI cell segmentation tool cellpose to quantitively measure the uptake efficiency of soluble cargo in cells**
 
-Live imaging is performed by enriching the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in this [paper](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this (link for the upcoming manuscript).
+Live imaging is performed by enriching the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in this [paper](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this [protocol](https://www.protocols.io/view/3duptake-jy6ycpzfx). Link for the upcoming manuscript will be added later.
 To learn more about Cellpose-SAM, check the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
 
 Installation instructions for all related programs can be found [below](README.md/##Installation).
