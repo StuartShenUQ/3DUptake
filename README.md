@@ -4,7 +4,7 @@
 
 **3D Uptake is a workflow combining living imaging and a fully automated analysis that leverage the high-speeding live imaging capability of spinning-disc microscopy and AI cell segmentation tool cellpose to quantitively measure the uptake efficiency of soluble cargo in cells**
 
-Live imaging is performed by enrich the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in this [paper](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this [manuscript](link for the upcoming manuscript).
+Live imaging is performed by enrich the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in this [paper](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this (link for the upcoming manuscript).
 To learn more about Cellpose-SAM, check the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
 
 Installation instructions for all related programs can be found [below](README.md/##Installation).
@@ -24,7 +24,7 @@ FIJI can be installed following this [link](https://fiji.sc/).
 
 ### BIOP/ Wrappers for FIJI
 BIOP/ijl-utilities-wrapper is required to access cellpose within FIJI. More details can be found [here](https://github.com/BIOP/ijl-utilities-wrappers).
-Plug-ins can be installed by FIJI - Update... - Manage Update Sites - Search PTBIOP.
+Plug-ins can be installed by FIJI - Update... - Manage Update Sites - PTBIOP.
 
 ### Cellpose
 Refer to the offical cellpose [repo](https://github.com/MouseLand/cellpose/) for the installation guide.
