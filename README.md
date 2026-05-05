@@ -17,7 +17,7 @@ Installation instructions for all related programs can be found [below](README.m
 
 ### System requirements
 
-Linux, Windows and Mac OS are supported for running the code. The code has been tested on Windows 10/11 and MAC OS 26. Please open an issue if you have problems with installation.
+Linux, Windows and Mac OS are supported for running the code. The code has been tested on Windows 10/11 and MAC OS 26. Please open an issue if you have problems with installation. A discrete GPU is advised for running Cellpose.
 
 ### FIJI installation
 FIJI can be installed following this [link](https://fiji.sc/).
