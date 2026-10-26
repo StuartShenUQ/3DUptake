@@ -8,23 +8,25 @@
 
 > **Note:** 3DUptake is currently optimized for adherent cell lines and may not perform reliably on suspension cells.
 
-Live imaging is performed by enriching the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in these publications [JOVE](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), [JCS](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this [protocol](https://www.protocols.io/view/3duptake-jy6ycpzfx).
-To learn more about Cellpose-SAM, check out the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
+Live imaging is performed by enriching the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in these publications [JOVE](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), [JCS](link), or this [protocol](https://www.protocols.io/view/3duptake-jy6ycpzfx).
 
-## **Changelog**
-### v1.1 (Oct 2026)
+> To learn more about Cellpose-SAM, check out the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
+
+## ⚙️ **Changelog**
+### 🌟 v1.1 (Oct 2026)
 * Added 2D Benchmarking
 * Added filter to remove the cell clipped by image boundaries
 * Added option for push notifications
-* ...
 
 ### v1.0 (May 2026)
 * First release
 
-## Documentation
-📖 Full User Manual can be found [here](README.md/##Installation).
+## 📖 Documentation
+📖 Full **User Manual** can be found [here](README.md/##Installation)
 
-## System requirements
+🧪 **Experimental protocol** can be found on Protocols.io [here](https://www.protocols.io/view/3duptake-jy6ycpzfx)
+
+## 🖥️ System requirements
 ### Hardware
 
 - Windows, macOS, or Linux
@@ -35,7 +37,7 @@ To learn more about Cellpose-SAM, check out the cellpose official repo [Mouselan
 
 ---
 
-### Imaging Equipments
+### 🔬 Imaging Equipments
 
 Recommended imaging systems:
 
@@ -45,7 +47,7 @@ Recommended imaging systems:
 
 ---
 
-### Software Requirements
+### 💾 Software Requirements
 
 | Software | Version |
 |-----------|---------|
@@ -55,7 +57,7 @@ Recommended imaging systems:
 
 ---
 
-## Installation
+## 💿 Installation
 
 ### Fiji installation
 Fiji can be installed following this [link](https://fiji.sc/).
@@ -97,7 +99,7 @@ install with: pip3 install torch torchvision
 Necessary dependencies will be installed during cellpose installation.
 > To enable GPU acceleration on Apple Silicon equipped computers, install [pytorch](https://pytorch.org/get-started/locally/) with MPS support.
 ```bash
-install with: pip3 install torch torchvision
+pip install torch torchvision
 ```
 
 ---
@@ -122,7 +124,7 @@ Update... - Manage Update Sites - PTBIOP
 ### Sample data and examples
 Sample shadow imaging dataset and example output can be downloaded on [Zenodo archive](https://zenodo.org/records/20754623) (doi: 10.5281/zenodo.20754623)
 
-# Citation
+## 📑 Citation
 **3DUptake**
 
 **Manuscript Submitted** Live Cell Imaging and Quantification of Peptide Uptake in Unlabelled Cells
@@ -144,7 +146,7 @@ Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a gene
 Pachitariu, M., Rariden, M., & Stringer, C. (2025). Cellpose-SAM: superhuman generalization for cellular segmentation. bioRxiv.
 [Link](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1)
 
-# Funding
+## Funding
 
-# Licnese
+## Licnese
 BSD 3-Clause License
