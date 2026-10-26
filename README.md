@@ -11,7 +11,7 @@
 Live imaging is performed by enriching the surrounding medium with fluorescent soluble cargo, with **unlabelled** cells shown as shadow. Detailed protocol of imaging acquisition can be found in these publications [JOVE](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), [JCS](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling), or this [protocol](https://www.protocols.io/view/3duptake-jy6ycpzfx).
 To learn more about Cellpose-SAM, check out the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
 
-## **Updates**
+## **Changelog**
 ### v1.1 (Oct 2026)
 * Added 2D Benchmarking
 * Added filter to remove the cell clipped by image boundaries
@@ -60,9 +60,51 @@ Recommended imaging systems:
 ### Fiji installation
 Fiji can be installed following this [link](https://fiji.sc/).
 
-### BIOP/ Wrappers for FIJI
+---
+
+### Cellpose
+> For the latest version and installation, refer to the offical Cellpose [repository](https://github.com/MouseLand/cellpose/).
+
+Python environemnt is required for Cellpose segmentation. Virtual environment can be installed using [miniforge](https://github.com/conda-forge/miniforge), [Anaconda](https://www.anaconda.com/download), or python [venv](https://docs.python.org/3/library/venv.html).
+
+#### Installation
+> example using conda environment
+
+In terminal window (Command Prompt or Terminal)
+```bash
+conda create --name cellpose python=3.12
+```
+
+Activate virtual python environment
+```bash
+conda activate cellpose
+```
+Install cellpose 4 (tested upto cellpose 4.0.4):
+```bash
+pip install cellpose==4.0.4
+```
+
+Install cellpose GUI (graphical user interface):
+```bash
+python -m pip install ‘cellpose[gui]’
+```
+
+Apple silicon may need to install pytorch to enable GPU support, found at https://pytorch.org/get-started/locally/
+install with: pip3 install torch torchvision
+
+
+#### Dependencies
+Necessary dependencies will be installed during cellpose installation.
+> To enable GPU acceleration on Apple Silicon equipped computers, install [pytorch](https://pytorch.org/get-started/locally/) with MPS support.
+```bash
+install with: pip3 install torch torchvision
+```
+
+---
+
+### BIOP/ Wrappers for Fiji
 In Fiji:
-```text
+```
 Update... - Manage Update Sites - PTBIOP
 ```
 
@@ -70,12 +112,30 @@ Update... - Manage Update Sites - PTBIOP
 
 ---
 
-### Cellpose
-> For the latest version and installation, refer to the offical cellpose [repo](https://github.com/MouseLand/cellpose/).
+### Install the 3DUptake Macro
+> Under construction
 
-You can install cellpose using conda or with native python if you have python3.8+ on your machine. Alternatively, cellpose can be installed in conda environment using [Anaconda](https://www.anaconda.com/).
+## Usage
 
-### Dependencies
-Cellpose will automatically install missing dependencies upon installation. To enable GPU acceleration on Apple Silicon (M1/2/3/4/5) equipped computers, additionally install [pytorch](https://pytorch.org/get-started/locally/) with MPS support.
+## Example Workflow
 
-# Sample data and examples
+### Sample data and examples
+Sample shadow imaging dataset and example output can be downloaded on [Zenodo archive](https://zenodo.org/records/20754623) (doi: 10.5281/zenodo.20754623)
+
+# Citation
+**3DUptake**
+JCS
+
+**Shadow imaging**
+JOVE
+
+**Cellpose**
+1.0
+2.0
+Human in the loop
+SAM
+
+# Funding
+
+# Licnese
+BSD 3-Clause License
