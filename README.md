@@ -124,16 +124,25 @@ Sample shadow imaging dataset and example output can be downloaded on [Zenodo ar
 
 # Citation
 **3DUptake**
-JCS
+
+**Manuscript Submitted** Live Cell Imaging and Quantification of Peptide Uptake in Unlabelled Cells
+
+Shen, H., Condon, N. D., Tan, S. J. H., Durek, T., de Veer, S., Craik, D. J., Stow, J. L.
 
 **Shadow imaging**
-JOVE
+
+Koh, Y. W. H., Hung, Y., Tuladhar, N., Xiao, Z., Brown, D. L., Condon, N. D., Stow, J. L. Live Fluorescence, Inverse Imaging of Cell Ruffling, and Macropinocytosis. J. Vis. Exp. (174), e62870, doi:10.3791/62870 (2021).
+[Link](https://www.jove.com/t/62870/live-fluorescence-inverse-imaging-cell-ruffling)
 
 **Cellpose**
-1.0
-2.0
-Human in the loop
-SAM
+
+Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. Nature methods, 18(1), 100-106.
+[Link](https://www.nature.com/articles/s41592-020-01018-x)
+
+**Cellpose-SAM**
+
+Pachitariu, M., Rariden, M., & Stringer, C. (2025). Cellpose-SAM: superhuman generalization for cellular segmentation. bioRxiv.
+[Link](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1)
 
 # Funding
 
