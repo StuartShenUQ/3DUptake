@@ -1,6 +1,6 @@
 # **3DUptake Analysis**
 
-[![repo size](https://img.shields.io/github/repo-size/StuartShenUQ/3DUptake/)](https://github.com/StuartShenUQ/3DUptake/)
+[![Repo Size](https://img.shields.io/github/repo-size/StuartShenUQ/3DUptake)](https://github.com/StuartShenUQ/3DUptake)
 
 **3DUptake is a Fiji/ImageJ workflow for quantifying intracellular uptake from live-cell shadow imaging datasets. The workflow combines live-cell shadow imaging, high-speeding live imaging capability of spinning-disc microscopy, automated thresholding, vesicle segmentation, and optional Cellpose-based cell segmentation to generate volumetric uptake measurements and quality-control outputs.**
 
