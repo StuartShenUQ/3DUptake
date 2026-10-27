@@ -13,10 +13,6 @@ Live imaging is performed by enriching the surrounding medium with fluorescent s
 > To learn more about Cellpose-SAM, check out the cellpose official repo [Mouseland/cellpose](https://github.com/MouseLand/cellpose/).
 
 ## ⚙️ **Changelog**
-### 🌟 v1.1 (Oct 2026)
-* Added 2D Benchmarking
-* Added filter to remove the cell clipped by image boundaries
-* Added option for push notifications
 
 ### v1.0 (May 2026)
 * First release
