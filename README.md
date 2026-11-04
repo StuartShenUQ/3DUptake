@@ -14,7 +14,14 @@ Live imaging is performed by enriching the surrounding medium with fluorescent s
 
 ## ⚙️ **Changelog**
 
-### v1.0 (May 2026)
+### v1.1 (Nov 2026)
+* Added Benchamark mode for comparison with 2D analysis
+* Added script to generate test image for Cellpose optimisation
+* Added User Manual document
+* Added option to receive push notification
+
+
+#### v1.0 (May 2026)
 * First release
 
 ## 📖 Documentation
@@ -111,14 +118,22 @@ Update... - Manage Update Sites - PTBIOP
 ---
 
 ### Install the 3DUptake Macro
-> Under construction
+1. Download the 3DUptake.zip file from the release page
+
+2. Extract the ZIP archive
+
+3. Copy the 3DUptake folder into *Fiji installation folder*/scripts/Plugins
+
+4.  Restart Fiji to load the macros
+
+The 3DUptake should now be accessible from the Fiji - Plugins dropdown menu
 
 ## Usage
 
 ## Example Workflow
 
 ### Sample data and examples
-Sample shadow imaging dataset and example output can be downloaded on [Zenodo archive](https://zenodo.org/records/20754623) (doi: 10.5281/zenodo.20754623)
+Sample shadow imaging dataset and example output can be downloaded on [Zenodo archive](https://zenodo.org/records/23872817) (10.5281/zenodo.23872817)
 
 ## 📑 Citation
 **3DUptake**
