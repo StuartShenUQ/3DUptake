@@ -25,7 +25,7 @@ Live imaging is performed by enriching the surrounding medium with fluorescent s
 * First release
 
 ## 📖 Documentation
-📖 Full **User Manual** can be found [here](/.3DUptake_User_Manual.pdf)
+📖 Full **User Manual** can be found [here](./3DUptake_User_Manual.pdf)
 
 🧪 **Experimental protocol** can be found on Protocols.io [here](https://www.protocols.io/view/3duptake-jy6ycpzfx)
 
