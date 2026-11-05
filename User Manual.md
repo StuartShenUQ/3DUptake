@@ -1,15 +1,15 @@
 # 3DUptake User Manual
 
 ## Table of Contents
-- Introduction
-- Experimental workflow
-- Installation
-- Setup cellpose parameter
-- Running the 3DUptake Fiji Macro
-- Output structure
-- Key considerations
-- Quality check
-- Troubleshoot
+- [Introduction](#introduction)
+- [Experimental workflow](#experimental-workflow)
+- [Installation](#installation)
+- [Setup cellpose parameter](#setup-cellpose-parameter)
+- [Running the 3DUptake Fiji Macro](#running-the-3duptake-fiji-macro)
+- [Output structure](#output-structure)
+- [Key considerations](#key-considerations)
+- [Quality check](#quality-check)
+- [Troubleshoot](#troubleshoot)
 
 ## Introduction
 
