@@ -158,6 +158,13 @@ Pachitariu, M., Rariden, M., & Stringer, C. (2025). Cellpose-SAM: superhuman gen
 [Link](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1)
 
 ## Funding
+- The National Health and Medical Research Council of Australia
+- The Australian Research Council Centre of Excellence for Quantum Biotechnology (QUBIC)
+- The Australian Research Council Centre of Excellence for Innovations in Peptide and Protein Science (CIPPS)
+- The Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation.
+
+## Acknowledgement
+The authors acknowledge the IMB Advanced Microscopy Platform for access to specialised optical imaging instrumentation, associated computational analysis resources, and expert staff support.
 
 ## Licnese
 BSD 3-Clause License
